@@ -6,7 +6,7 @@ int M2 = 7;
 int soilSensor = 0;
 
 //moisture variables
-int moistureThreshold = 300;//calibrate this variable based on how damp the soil needs to be for the particular plant
+int moistureThreshold = 300;//calibrate this variable 0-1023 based on how damp the soil needs to be for the particular plant
 int waitTime = 5000; //milliseconds
 int waterTime = 1000; //milliseconds
 
